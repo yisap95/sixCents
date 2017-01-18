@@ -73,12 +73,7 @@ Rails.application.configure do
 
   config.web_socket_server_url = "wss://changetocharity.herokuapp.com/cable"
 
-
-
-
-
-
-  config.action_cable.url = "wss://changetocharity.herokuapp.com/cable"
+  
   config.action_cable.disable_request_forgery_protection=true
 
 
